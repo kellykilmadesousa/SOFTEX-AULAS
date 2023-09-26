@@ -3,46 +3,184 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./css/style.css">
-    <title>Portfólio - Kelly</title>
+    <title>Portifólio - Kelly</title>
 </head>
 <body>
     <header>
-        <div class="header-profile">
+        <div class="header-profile-container">
             <div class="avatar-img">
-                <img class="img-profile" src="./css/img/Kelly Kilma.jpeg" alt="imagem de perfil navbar">
+                <img class="img-profile" src="./css/img/Kelly Kilma.jpeg" alt="imagem de perfil navbar"/>
             </div>
-            <span class="header-avatar-sub">KELLY KILMA</span>
+            <span>KELLY KILMA</span>
         <div>
+            
+        
+        <nav>
+            <ul>
+                <li><a href="#section-home">Home</a></li>
+                <li><a href="#section-about-me">About</a></li>
+                <li><a href="#section-projects">Project</a></li>
+                <li><a href="#section-contact">Contact</a></li>
+            </ul>
+        </nav>
+       
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </header> 
 
-        <div>  
-            <nav>
-                <ul>
-                <li><a href="#">HOME</a></li>
-                <li><a href="#">ABOUT</a></li>
-                <li><a href="#">PROJECT</a></li>
-                <li><a href="#">CONTACT</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
     <main>
-        <section class="section-home">
+        <section class="section section-home" id="section-home">
             <h1>HEY, MY NAME IS KELLY KILMA</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis tempora explicabo quae quod deserunt eius sapiente solutions for complex problems  
-            </p>
-            <div class="btn"><a href="#">PROJECTS</a></div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis tempora explicabo quae quod deserunt eius
+              sapiente solutions for complex problems</p>
+      
+            <div><a class="btn" href="#section-projects">PROJECTS</a></div>
         </section>
-        <section></section>
-        <section></section>
-        <section></section>
+
+        <section class="section section-about-me" id="section-about-me">
+            <h2>About me</h2>
+            <p class="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis tempora explicabo quae
+              quod deserunt eius
+              sapiente</p>
+      
+            <div class="section-about-me-content">
+              <div>
+                <h3>Get to know me!</h3>
+                <p class="paragraph" style="margin-bottom: 10px">Hey! It's John Doe and I'm a Frontend Web Developer located
+                  in
+                  Los Angeles. I've done
+                  remote projects for
+                  agencies, consulted for startups, and collaborated with talented people to create digital products for both
+                  business and consumer use.</p>
+                <p class="paragraph">I'm a bit of a digital product junky. Over the years, I've
+                  used hundreds of web and
+                  mobile apps in
+                  different industries and verticals. Feel free to contact me here.</p>
+                <a href="" class="btn" style="margin-top: 30px;">contact</a>
+              </div>
+
+              <div>
+                <h3>My Skills</h3>
+                <ul>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                  <li>React</li>
+                  <li>SASS</li>
+                  <li>Git</li>
+                  <li>Shopify</li>
+                  <li>Wordpress</li>
+                </ul>
+              </div>
+            </div>
+        </section>
+
+        <section class="section section-projects" id="section-projects">
+            <h2>Projects</h2>
+            <p class="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis tempora explicabo quae
+              quod deserunt eius sapiente</p>
+      
+            <ul>
+              <li>
+                <div class="project-img">
+                  <img style="width: 100%;" src="./css/img/project-mockup-example.jpeg" alt="Project mockup">
+                </div>
+                <div class="project-content">
+                  <h3>Project 1</h3>
+                  <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis tempora, explicabo
+                    quae quod
+                    deserunt eius sapiente praesentium.</p>
+                  <a href="" class="btn">Case study</a>
+                </div>
+              </li>
+      
+              <li>
+                <div class="project-img">
+                  <img style="width: 100%;" src="./css/img/project-mockup-example.jpeg" alt="Project mockup">
+                </div>
+                <div class="project-content">
+                  <h3>Project 2</h3>
+                  <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis tempora, explicabo
+                    quae quod deserunt eius sapiente praesentium.</p>
+                  <a href="" class="btn">Case study</a>
+                </div>
+              </li>
+      
+              <li>
+                <div class="project-img">
+                  <img style="width: 100%;" src="./css/img/project-mockup-example.jpeg" alt="Project mockup">
+                </div>
+                <div class="project-content">
+                  <h3>Project 3</h3>
+                  <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis tempora, explicabo
+                    quae quod
+                    deserunt eius sapiente praesentium.</p>
+                  <a href="" class="btn">Case study</a>
+                </div>
+              </li>
+            </ul>
+        </section>
+
+        <section class="section section-contact" id="section-contact">
+            <h2>Contact</h2>
+            <p class="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis tempora explicabo quae
+              quod deserunt eius sapiente</p>
+            <form>
+              <div>
+                <label for="nome">
+                  Name
+                </label>
+                <input type="text" name="nome" id="" placeholder="Enter your name">
+              </div>
+      
+              <div>
+                <label for="email">
+                  E-mail
+                </label>
+                <input type="email" name="email" id="" placeholder="Enter your e-mail">
+              </div>
+      
+              <div>
+                <label for="message">
+                  Message
+                </label>
+                <textarea required="" rows="10" placeholder="Enter your message" name="message"></textarea>
+              </div>
+      
+              <button type="submit" class="btn">Submit</button>
+            </form>
+        </section>
     </main>
+
     <footer>
-
-    </footer>
-
-
-
+        <div class="footer-top">
+            <div class="footer-top-content">
+                <h4>Kelly Kilma</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit facilis tempora explicabo quae quod deserunt</p>
+            </div>
     
+            <div>
+                <h4>Redes sociais</h4>
+                <div>
+                <a href="https://www.linkedin.com/in/kellykilma/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                <a href="https://github.com/kellykilmadesousa" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                <a href="https://twitter.com/iamkeesousa" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <a href="https://www.youtube.com/channel/UCH3JOMR5CJ_u5Nq6cWEDWMQ" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                <a href="https://www.instagram.com/iamkeesousa/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Line -->
+        <div class="footer-bottom">
+          <span>
+            © Copyright 2023. Made by
+            <a rel="noreferrer" target="_blank" href="https://github.com/kellykilmadesousa">
+              <strong>Kelly Kilma</strong>
+            </a>
+          </span>
+        </div>
+    </footer>
 </body>
 </html>
